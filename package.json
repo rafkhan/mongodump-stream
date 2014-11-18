@@ -1,0 +1,11 @@
+{
+  "name": "mongodump-stream",
+  "version": "1.0.0",
+  "description": "Various streaming utilities for dumping a mongo DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael Khan",
+  "license": "MIT"
+}
