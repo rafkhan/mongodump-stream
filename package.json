@@ -7,5 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rafael Khan",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "knox": "^0.9.1",
+    "knox-mpu": "^0.1.6",
+    "mongodb": "^1.4.20",
+    "q": "^1.1.1"
+  }
 }
