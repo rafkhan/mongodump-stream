@@ -1,7 +1,10 @@
+'use strict';
 
-var mdStream = {};
+var mongoDump = require('./lib/mongo-dump/mongo-dump');
+var s3upload  = require('./lib/s3/s3-upload');
 
-mdStream.getMongoDumpStream = function() {};
-
-exports = mdStream; // jshint ignore:line
+exports = module.exports = {
+  getMongoStream: mongoDump.getDumpStream,
+  streamToS3: s3upload.streamToS3
+};
 
