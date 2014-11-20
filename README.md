@@ -8,10 +8,12 @@ Heavily based off [timisbusy/dumpstr](https://github.com/timisbusy/dumpstr)
 
 ### API
 
-#### `mds.getMongoStream(uri, collection)`
-Get the stream.
+##### `mds.getMongoStream(uri, collection)`
+Get a stream of your collection.
 
-#### `mds.streamToS3(key, stream, awsConf)`
+##### `mds.streamToS3(key, stream, awsConf)`
+Write an object named `key` to an S3 bucket using the data in `stream`.
+`awsConf` must contain the properties `key`, `secret`, and `bucket`.
 
 ### Example
 ```javascript
