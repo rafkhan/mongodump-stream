@@ -1,6 +1,17 @@
 # Mongo Dump Streaming Utilities
 
+Obtain a stream object from mongo's export utility.
+
 Heavily based off [timisbusy/dumpstr](https://github.com/timisbusy/dumpstr)
+
+## Documentation
+
+### API
+
+#### `mds.getMongoStream(uri, collection)`
+Get the stream.
+
+#### `mds.streamToS3(key, stream, awsConf)`
 
 ### Example
 ```javascript
