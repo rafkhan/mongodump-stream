@@ -1,6 +1,6 @@
 {
   "name": "mongodump-stream",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Various streaming utilities for dumping a mongo DB",
   "main": "index.js",
   "repository": {
