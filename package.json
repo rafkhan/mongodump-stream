@@ -1,0 +1,21 @@
+{
+  "name": "mongodump-stream",
+  "version": "0.0.0",
+  "description": "Various streaming utilities for dumping a mongo DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive  ./lib"
+  },
+  "author": "Rafael Khan",
+  "license": "MIT",
+  "dependencies": {
+    "knox": "^0.9.1",
+    "knox-mpu": "^0.1.6",
+    "mongodb": "^1.4.20",
+    "q": "^1.1.1",
+    "request": "^2.48.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.0.27"
+  }
+}
