@@ -13,12 +13,18 @@ Heavily based off [timisbusy/dumpstr](https://github.com/timisbusy/dumpstr)
 ##### `mds.slurp.binary(uri, collection)`
 Get a binary stream of your collection (mongodump).
 
+
+
 ##### `mds.slurp.text(uri, collection)`
 Get a textual stream of your collection (mongoexport).
+
+
 
 ##### `mds.dump.s3(key, stream, awsConf)`
 Write an object named `key` to an S3 bucket using the data in `stream`.
 `awsConf` must contain the properties `key`, `secret`, and `bucket`.
+
+
 
 ##### `mds.dump.fs.file(stream, path)`
 Dump stream into path.
