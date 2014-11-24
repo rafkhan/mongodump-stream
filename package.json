@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Various streaming utilities for dumping a mongo DB",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    'url": "https://github.com/rafkhan/mongodump-stream.git"
+  },
+  "homepage": "https://github.com/rafkhan/mongodump-stream",
   "scripts": {
     "test": "mocha --recursive  ./lib"
   },
