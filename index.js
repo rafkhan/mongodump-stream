@@ -7,7 +7,8 @@ var fsDumpFile = require('./lib/fs-dump/file');
 exports = module.exports = {
   slurp: {
     binary: mongoDump.getBinaryDumpStream,
-    text: mongoDump.getTextDumpStream
+    text: mongoDump.getTextDumpStream,
+    multiBinary: mongoDump.multiBinary
   },
   
   dump: {
