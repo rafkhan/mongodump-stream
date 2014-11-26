@@ -18,9 +18,11 @@
     "knox-mpu": "^0.1.6",
     "mongodb": "^1.4.20",
     "q": "^1.1.1",
+    "ramda": "^0.8.0",
     "request": "^2.48.0"
   },
   "devDependencies": {
-    "aws-sdk": "^2.0.27"
+    "aws-sdk": "^2.0.27",
+    "chai": "^1.10.0"
   }
 }
