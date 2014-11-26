@@ -16,6 +16,7 @@
   "dependencies": {
     "knox": "^0.9.1",
     "knox-mpu": "^0.1.6",
+    "mongo-uri": "^0.1.2",
     "mongodb": "^1.4.20",
     "q": "^1.1.1",
     "ramda": "^0.8.0",
